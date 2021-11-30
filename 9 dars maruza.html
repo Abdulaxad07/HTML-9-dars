@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 dars maruza </title>
+    <style>
+        * { 
+            margin: 0;
+        }
+
+        .product {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+
+        .product_image {
+            width: 60%;
+            height: 100vh;
+            background-color: #fff;
+
+        }
+
+
+        .product_info {
+            width: 40%;
+            height: 100vh;
+
+        }
+
+        .image {
+            width: 100%;
+            height: 100vh;
+            object-fit: contain;
+
+        }
+
+        .product_subtitle {
+            margin-top: 50px;
+            color: dodgerblue;
+            font-family: sans-serif;
+            font-weight: 500;
+
+        }
+
+        .product_name {
+            margin-top: 60px;
+            font-size: 65px;
+            font-weight: 300;
+            font-family: sans-serif;
+            color: #43484D;
+        }
+
+        .product_descriptipn {
+            margin-top: 50px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 25px;
+            color: #9191A1;
+
+
+        }
+
+        .line {
+            width: 95%;
+            height: 1px;
+            background-color: #9191A1;
+        }
+
+        .product_section {
+            margin-top: 20px;
+            font-size: 25px;
+            color: #9191A1;
+        }
+
+        .product_collection {
+            display: flex;
+             list-style-type: none;
+            margin-left: -55px;
+             margin-top: 20px ;
+        }
+
+        .color_itemred {
+            width: 45px;
+            height: 45px;
+            background-color: #C91323;
+            margin: 0px 20px;
+            border-radius: 50%; 
+            box-shadow: 0px 0px 10px #292929;
+            border: 2px solid #fff;
+        }
+
+        .color_itemblue {
+            width: 45px;
+            height: 45px;
+            background-color: #304780;
+            margin: 0px 20px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px #292929;
+            border: 2px solid #fff;
+       
+        }
+            .color_itemblack {
+                width: 45px;
+                height: 45px;
+                background-color: #323232;
+                margin: 0px 20px;
+                border-radius: 50%;
+                box-shadow: 0px 0px 10px #292929;
+                border: 2px solid #fff;   
+       
+            }
+            .line_types{
+                padding: 15px 30px ;
+                font-size: 20px ;
+                border-radius: 5px ;
+                background-color: transparent;
+                border: 1px solid #accdee;
+                margin: 30ox 5px ;
+                font-weight: 500;
+
+            }
+    </style>
+</head>
+
+<body>
+    <div class="product">
+        <div class="product_image">
+            <img class="image"
+                src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MX472?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1570119347612"
+                alt=" ">
+        </div>
+        <div class="product_info">
+            <h3 class="product_subtitle"> HEADPHONES</h3>
+            <h1 class="product_name"> Beats EP</h1>
+            <p class="product_descriptipn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi modi fugit
+                nulla, quisquam fuga debitis?</p>
+            <div class="line"></div>
+            <div class="product_section"> Color</div>
+            <ul class="product_collection">
+                <li class="color_itemred"></li>
+                <li class="color_itemblue"></li>
+                <li class="color_itemblack"></li>
+            </ul>
+            <p class="product_section"> Cable configuration </p>
+            <button class="line_types">Straight</button>
+            <button class="line_types">Coiled</button>
+            <button class="line_types">Long-coiled</button>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
